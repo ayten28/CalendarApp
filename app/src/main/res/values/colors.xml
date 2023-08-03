@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_1">#495464</color>
+    <color name="grey_2">#BBBFCA</color>
+    <color name="light_grey_1">#E8E8E8</color>
+    <color name="light_grey_2">#F4F4F2</color>
+    <color name="night_grey_1">#14274E</color>
+    <color name="night_grey_2">#394867</color>
+    <color name="night_light_grey_1">#9BA4B4</color>
+    <color name="night_light_grey_2">#F1F6F9</color>
+    <color name="noMeeting">#A2D5AB</color>
+    <color name="onMeeting">#FF5959</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@color/noMeeting"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/createeventmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_event"
+            android:background="@android:color/transparent"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:gravity="center" >
+
+        <ListView
+            android:id="@+id/eventlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?colorPrimary"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+</LinearLayout>
